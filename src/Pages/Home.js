@@ -8,6 +8,7 @@ function Home() {
     <>
       <NavigationBar />
       Home
+      <Footer />
     </>
   );
 }

@@ -1,10 +1,12 @@
 import NavBar from "./Components/NavigationBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css"
 import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import Products from "./Pages/Products";
 import TeamVision from "./Pages/Team&Vision";
 import Contact from "./Pages/Contact";
+
 
 function App() {
   return (

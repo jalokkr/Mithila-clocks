@@ -58,6 +58,7 @@ const NavigationBar = () => {
                   style={({ isActive, isPending }) => {
                     return {
                       fontWeight: isActive ? "bold" : "",
+                      textDecoration: isActive ? "underline" : "none",
                       color: isPending ? "red" : "black",
                     };
                   }}
@@ -82,7 +83,7 @@ const NavigationBar = () => {
                   style={({ isActive, isPending }) => {
                     return {
                       fontWeight: isActive ? "bold" : "",
-                      textDecoration: isActive ? "underline" : "",
+                      textDecoration: isActive ? "underline" : "none",
                       color: isPending ? "red" : "white",
                     };
                   }}
