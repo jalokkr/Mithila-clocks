@@ -38,6 +38,7 @@ const NavigationBar = () => {
             <Box
               w={["80px", "150px", "200px", "170px"]}
               h={["80px", "150px", "200px", "170px"]}
+              pt="5px"
             >
               <Image src={Logo} w="100%" h="100%" objectFit="cover" />
             </Box>
