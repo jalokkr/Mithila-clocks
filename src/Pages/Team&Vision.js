@@ -60,32 +60,42 @@ const TeamAndVisionPage = () => {
         </Center>
         <Box px="5rem" py="2rem" lineHeight={"1.5"}>
           <Text textAlign="justify" mb={6}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-            urna eu felis dapibus condimentum sit amet a enim. Vivamus
-            ullamcorper massa nec semper venenatis. Nulla facilisi. Curabitur
-            vel fermentum est, a faucibus tellus. Integer malesuada nunc vel
-            elit consequat, ac fringilla orci euismod.
+            Mithila Clocks, a beacon of creativity and craftsmanship, is not
+            just a brand; it's a vision. Rooted in the rich cultural tapestry of
+            Bharat and inspired by the artistic heritage of Mithila, we craft
+            more than just clocks; we create timeless pieces of art that adorn
+            walls, offices, and homes. Our vision extends far beyond aesthetics;
+            it's a commitment to preserving traditions and embracing the future.
           </Text>
           <Text textAlign="justify" mb={6}>
-            Suspendisse potenti. In hac habitasse platea dictumst. Integer quis
-            eros ac neque convallis pellentesque. Fusce nec neque aliquam,
-            euismod turpis eu, bibendum metus. Duis in neque nec arcu semper
-            laoreet. Fusce eget sodales dui, at aliquam justo. Integer euismod
-            luctus ex, id pharetra libero tincidunt ut.
+            In the heart of Mithila Clocks lies a passionate dedication to the
+            principles of "Vocal for Local." We champion the essence of Bharat's
+            culture, bringing it to life through our intricately designed
+            clocks. Each piece resonates with the soul of our nation, carrying
+            forward the legacy of our artisans. By choosing Mithila Clocks, you
+            not only adorn your spaces with elegance but also contribute to the
+            prosperity of local craftsmen.
           </Text>
           <Text textAlign="justify" mb={6}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-            urna eu felis dapibus condimentum sit amet a enim. Vivamus
-            ullamcorper massa nec semper venenatis. Nulla facilisi. Curabitur
-            vel fermentum est, a faucibus tellus. Integer malesuada nunc vel
-            elit consequat, ac fringilla orci euismod.
+            At Mithila Clocks, we believe in the power of fusion – merging the
+            traditional with the contemporary, the ancient with the modern. Our
+            clocks are more than mere timekeepers; they are cultural
+            ambassadors, bridging the gap between heritage and innovation. By
+            adorning your spaces with Mithila Clocks, you not only bring home
+            exquisite craftsmanship but also support a movement that celebrates
+            local talent. We are on a mission to transform every home and office
+            into a canvas of Bharat's artistic splendor. With every tick of our
+            clocks, we aim to echo the heartbeat of our nation, inviting you to
+            be a part of an extraordinary journey where tradition meets
+            innovation, and culture finds its place in the heart of your home.
           </Text>
           <Text textAlign="justify" mb={6}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-            urna eu felis dapibus condimentum sit amet a enim. Vivamus
-            ullamcorper massa nec semper venenatis. Nulla facilisi. Curabitur
-            vel fermentum est, a faucibus tellus. Integer malesuada nunc vel
-            elit consequat, ac fringilla orci euismod.
+            We invite you to embrace the spirit of Swadeshi, to celebrate the
+            vibrancy of our homeland through our meticulously crafted clocks.
+            With Mithila Clocks, your walls don't just tell time; they narrate
+            stories, preserving the essence of Bharat's heritage and inviting
+            you to be a part of this timeless journey. Join us in adorning your
+            spaces with artistry that reflects the soul of our nation.
           </Text>
         </Box>
         <Center mb={8}>
@@ -93,7 +103,11 @@ const TeamAndVisionPage = () => {
             Our Team
           </Heading>
         </Center>
-        <SimpleGrid columns={[1, 2, 3, 4]} gap={10} minChildWidth={200}>
+        <SimpleGrid
+          columns={[1, 2, 3, 4]}
+          minChildWidth={200}
+          justifyContent="center"
+        >
           {teamMembers.map((member) => (
             <Card
               key={member.id}
@@ -102,6 +116,7 @@ const TeamAndVisionPage = () => {
               boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
               m="1rem"
               w="300px"
+              ml="3rem"
             >
               <CardHeader>
                 <Image
