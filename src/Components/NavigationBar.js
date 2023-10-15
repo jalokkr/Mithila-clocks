@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NavLink } from "react-router-dom";
-import Logo from "../Static/Mithila_Clocks.png";
+import Logo from "../Static/Images/Mithila_Clocks.png";
 
 const routes = [
   { to: "/", text: "Home" },
