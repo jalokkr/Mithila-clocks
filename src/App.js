@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import Products from "./Pages/Products";
-import TeamVision from "./Pages/Team&Vision";
+import TeamAndVisionPage from "./Pages/Team&Vision";
 import Contact from "./Pages/Contact";
 import NavigationBar from "./Components/NavigationBar";
 
@@ -23,7 +23,14 @@ function App() {
             </>
           }
         />
-        <Route path="/team-and-vision" element={<TeamVision />} />
+        <Route
+          path="/team-and-vision"
+          element={
+            <>
+              <NavigationBar /> <TeamAndVisionPage /> <Footer />
+            </>
+          }
+        />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
     </Router>
