@@ -31,7 +31,16 @@ function App() {
             </>
           }
         />
-        <Route path="/contact-us" element={<Contact />} />
+        <Route
+          path="/contact-us"
+          element={
+            <>
+              <NavigationBar />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );
