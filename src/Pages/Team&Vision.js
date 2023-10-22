@@ -113,7 +113,7 @@ const TeamAndVisionPage = () => {
               key={member.id}
               borderRadius="15px"
               overflow="hidden"
-              boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+              boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 7px 3px"
               m="1rem"
               w="300px"
               ml="3rem"

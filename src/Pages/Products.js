@@ -18,6 +18,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { clocks } from "../Static/Constants/Clocks";
 import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
 import { useState } from "react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 const Products = () => {
   const categories = [
@@ -71,7 +72,7 @@ const Products = () => {
           {filteredClocks.map((clock) => (
             <Card
               key={clock.code}
-              boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+              boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 7px 3px"
               m="1rem"
               borderRadius={"15px"}
               w="350px"
@@ -122,7 +123,7 @@ const Products = () => {
         </Flex>
         <Text textAlign={"right"}>
           <Link as={RouterLink} to="/contact-us" color="teal.500" fontSize="lg">
-            and much more
+            and much more <ArrowForwardIcon />
           </Link>
         </Text>
       </Box>
