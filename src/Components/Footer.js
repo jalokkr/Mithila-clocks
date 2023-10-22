@@ -22,7 +22,7 @@ const routes = [
 const ResponsiveFooter = () => {
   return (
     <>
-      <Container bg={"black"} color="white">
+      <Box bg={"black"} color="white">
         <Grid
           templateColumns={{ base: "auto", md: "1fr 2fr 1fr" }}
           gap={4}
@@ -52,7 +52,7 @@ const ResponsiveFooter = () => {
           Copyright &copy; {new Date().getFullYear()} Mithila Clocks. All rights
           reserved.
         </Text>
-      </Container>
+      </Box>
     </>
   );
 };
