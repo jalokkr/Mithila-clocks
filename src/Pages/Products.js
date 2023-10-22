@@ -43,15 +43,14 @@ const Products = () => {
               Our Products Collections
             </Heading>
           </Center>
-          <Flex justify={"center"} mt="2rem">
+          <Flex justify={"center"} mt="2rem" flexWrap={"wrap"} gap="2rem">
             {categories.map((category) => (
               <Link
                 key={category}
-                bg="black"
+                bg="#4a4949"
                 p="1rem"
                 borderRadius={"15px"}
                 color="white"
-                mr={4}
                 textDecorationLine={
                   selectedCategory === category ? "underline" : "none"
                 }
@@ -76,7 +75,7 @@ const Products = () => {
               m="1rem"
               borderRadius={"15px"}
               w="350px"
-              h="500px"
+              h="520px"
             >
               <CardHeader>
                 <Image
