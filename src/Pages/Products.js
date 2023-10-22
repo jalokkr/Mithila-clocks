@@ -47,12 +47,15 @@ const Products = () => {
             {categories.map((category) => (
               <Link
                 key={category}
+                bg="black"
+                p="1rem"
+                borderRadius={"15px"}
+                color="white"
                 mr={4}
                 textDecorationLine={
                   selectedCategory === category ? "underline" : "none"
                 }
                 fontWeight={selectedCategory === category ? "bold" : ""}
-                color={selectedCategory === category ? "teal.500" : "gray.500"}
                 cursor="pointer"
                 onClick={() =>
                   setSelectedCategory(
