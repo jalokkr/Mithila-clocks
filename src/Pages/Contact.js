@@ -46,8 +46,8 @@ const Contact = () => {
       >
         <Card
           w="550px"
-          h="550px"
-          boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+          h="650px"
+          boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 7px 3px"
           borderRadius={"15px"}
         >
           <CardHeader>
@@ -65,26 +65,26 @@ const Contact = () => {
                 Mhatre compound, 4/1 Ramanlal chowk, Swami Vivekananda Rd,
                 Borivali West, Maharashtra 400092
               </Text>
-              <Text fontSize="20px" fontWeight={"500"} mt="2rem">
+              <Text fontSize="20px" fontWeight={"500"} mt="3rem">
                 Open hours
               </Text>
               <Text mt="1rem">Monday-Saturday 10AM-6PM</Text>
-              <Text fontSize="20px" fontWeight={"500"} mt="2rem">
+              <Text fontSize="20px" fontWeight={"500"} mt="3rem">
                 Product inquiry
               </Text>
               <Text mt="1rem">1234-5678-90</Text>
-              <Text fontSize="20px" fontWeight={"500"} mt="2rem">
+              <Text fontSize="20px" fontWeight={"500"} mt="3rem">
                 Service Contact
               </Text>
               <Text mt="1rem">1234-5678-90</Text>
-              <Text mt="1rem">help@email.org</Text>
+              <Text mt="1rem">mithilaclock@gmail.com</Text>
             </Box>
           </CardBody>
         </Card>
         <Card
           w="550px"
-          h="550px"
-          boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+          h="650px"
+          boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 7px 3px"
           borderRadius={"15px"}
         >
           <Heading size="md" textAlign={"center"} pt="1rem">
@@ -108,13 +108,13 @@ const Contact = () => {
               </FormControl>
               <FormControl mt="2rem">
                 <FormLabel>Phone Number</FormLabel>
-                <Input placeholder="Phone NUmber" mt="1rem" />
+                <Input placeholder="Phone Number" mt="1rem" />
               </FormControl>
               <FormControl mt="2rem">
                 <FormLabel>Inquiry/Message</FormLabel>
                 <Textarea placeholder="Your inquiry" mt="1rem" />
               </FormControl>
-              <Button mt="2rem" bg="blue" w="150px" color="white" h="30px">
+              <Button mt="2rem" bg="blue" color="white">
                 Send Message
               </Button>
             </Flex>
