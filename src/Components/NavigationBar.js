@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NavLink } from "react-router-dom";
-import Logo from "../Static/Images/Mithila_Clocks.png";
+import Logo from "../Static/Images/logoNew.jpg";
 
 const routes = [
   { to: "/", text: "Home" },
@@ -32,18 +32,12 @@ const NavigationBar = () => {
 
   return (
     <>
-      <Flex align="center" justifyContent="center">
-        <Text fontSize="lg" fontWeight="bold">
+      <Flex gap={{base: "2rem", sm: "2rem", md: "2rem", lg: "5rem", xl: "13rem",}} align="center" justifyContent="center" p="2rem">
+        <Box w={{base: "50%", md: "40%", lg: "20%"}}>
           <NavLink to="/">
-            <Box
-              w={["80px", "150px", "200px", "170px"]}
-              h={["80px", "150px", "200px", "170px"]}
-              pt="5px"
-            >
-              <Image src={Logo} w="100%" h="100%" objectFit="cover" />
-            </Box>
+            <Image src={Logo} />
           </NavLink>
-        </Text>
+        </Box>
 
         {isMobile ? (
           <Box display={{ base: "block", md: "none" }} ml="2rem">
@@ -51,7 +45,7 @@ const NavigationBar = () => {
           </Box>
         ) : (
           <Box>
-            <Flex gap={"15rem"} ml={"10rem"}>
+            <Flex gap={{md: "5rem", lg: "10rem", xl: "13rem"}} alignItems={"center"}>
               {routes.map((route) => (
                 <NavLink
                   to={route.to}
